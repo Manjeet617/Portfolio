@@ -5,85 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manjeet - Developer Portfolio</title>
-    <style>
-          * {
-            margin: 0;
-            padding: 0;
-        }
+    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        body {
-            background-color: rgb(1, 1, 28);
-            color: white;
-
-        }
-
-        nav{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(43, 43, 94);
-        }
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li{
-             list-style: none;
-             margin: 0 23px;
-        }
-
-        nav ul li a{
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover{
-            color: rgb(155, 155, 164);
-            font-size: 1.04rem;
-        }
-
-        main hr{
-            border: 0;
-            background: white;
-            height: 1.2px;
-            margin: 60px 84px;
-        }
-        .left{
-            font-size: 1.5rem;
-        }
-        .firstSection{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 130px 0;
-        }
-        .firstSection > div{
-            width:30% ;
-        }
-        .leftSection{
-            font-size: 3rem;
-        } 
-        .leftSection .buttons{
-            padding: 50px 0;
-        }   
-        .leftSection .btn{
-             padding: 12px;
-             background: rgb(82, 82, 229);
-             color: white;
-             border: 2px solid white;
-             border-radius: 6px;
-             font-size: 20px;
-             cursor: pointer;
-
-        } 
-        
-        .rightSection img{
-            width: 80%;
-            
-        }
-
-    </style>
 </head>
 
 <body>
@@ -91,12 +17,12 @@
         <nav>
             <div class="left"> Portfolio </div>
             <div class="right"></div>
-             <ul>
-              <li><a href="/">Home</a></li>
-               <li><a href="/">About</a></li>
-               <li><a href="/">Projects</a></li>
-               <li><a href="/">Contact Me</a></li>
-             </ul>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact Me</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -104,18 +30,106 @@
         <section class="firstSection">
             <div class="leftSection">
                 Hi, I'm Manjeet
-                <div>and I am a software developer</div> 
+                <div>and I am a software developer</div>
                 <div class="buttons">
                     <button class="btn">Resume</button>
                     <button class="btn">Hire</button>
                 </div>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
             </div>
             <div class="rightSection">
-            <img src="https://png.pngitem.com/pimgs/s/112-1127587_software-hire-developers-hd-png-download.png" alt="">
+                <img src="https://png.pngitem.com/pimgs/s/112-1127587_software-hire-developers-hd-png-download.png"
+                    alt="">
             </div>
         </section>
-       
+
+        <section class="secondSection">
+            <h1>About Me</h1>
+            <h4>Education Qualification:</h4>
+            <ul class="education-list">
+                <li>
+                    <strong>Secondary Education</strong><br>
+                    <span>School Name: Navjeevan Science School, Sikar (Rajasthan)</span>
+                    <br>
+                    <span> Recognized Board:State Board Of Rajasthan</span>
+                    <br>
+                    <span>Percentage: 90.17%</span>
+                </li>
+                <li>
+                    <strong>Senior Secondary Education</strong><br>
+                    <span>School Name: Navjeevan Science School, Sikar (Rajasthan)</span>
+                    <br>
+                    <span> Recognized Board:State Board Of Rajasthan</span>
+                    <br>
+                    <span>Percentage: 97.80%</span>
+                </li>
+                <li>
+                    <strong>Gradution(B.tech)</strong><br>
+                    <span>University Name: Rajasthan Technical University, Kota (Rajasthan)</span>
+                    <br>
+                    <span> Branch: Electrical Engineering</span>
+                    <br>
+                    <span>Year: Final year with 7.2CGPA(pursuing)</span>
+                </li>
+            </ul>
+            <h4>Skills :</h4>
+            <ul class="skills-list">
+                <li>I am a quick learner</li>
+                <li>Basic knowledge of : HTML, CSS, Python, MS Excel</li>
+            </ul>
+            <h4>Hobbies :</h4>
+            <ul class="hobbies-list">
+                <li>Playing volleyball</li>
+                <li>Listening Songs</li>
+                <li>Travelling</li>
+
+            </ul>
+
+        </section>
+
+
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h5>Manjeet Portfolio</h5>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                 <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+          Copyright &#169; manjeetsportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
